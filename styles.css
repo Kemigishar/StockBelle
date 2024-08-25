@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+<<<<<<< Updated upstream
     color: #333;
     line-height: 1.6;
 }
@@ -20,6 +21,34 @@ div {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 800px;
+=======
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: whitesmoke;
+}
+
+.inventory-section, #inventoryList, #salesLog {
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin: 4px 2px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+>>>>>>> Stashed changes
 }
 
 ul {
@@ -86,3 +115,9 @@ section p {
         padding: 8px;
     }
 }
+div {
+    background-color: black;
+}
+
+
+
